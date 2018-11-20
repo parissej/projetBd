@@ -6,7 +6,7 @@ public class Compte implements ICompte {
 	private int numeroCompte;
 
 	public Compte() {
-		this(0, 0);
+		this(0, 0D);
 	}
 
 	public Compte(int unNumero, double unSoldeInitial) {
@@ -29,6 +29,7 @@ public class Compte implements ICompte {
 		return this.numeroCompte;
 	}
 
+	@Override
 	public void setNumero(int unNumero) {
 		this.numeroCompte = unNumero;
 	}

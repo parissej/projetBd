@@ -14,7 +14,7 @@ public class CompteASeuil extends Compte implements IComptASeuil {
 	}
 
 	public CompteASeuil() throws BanqueException {
-		this(0, 0, 0);
+		this(0, 0D, 0D);
 	}
 
 	@Override

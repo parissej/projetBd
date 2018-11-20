@@ -10,7 +10,7 @@ public class CompteASeuilRemunere extends CompteRemunere implements IComptASeuil
 	}
 
 	public CompteASeuilRemunere() {
-		this(0, 0, 0, 0);
+		this(0, 0D, 0D, 0D);
 	}
 
 	@Override
